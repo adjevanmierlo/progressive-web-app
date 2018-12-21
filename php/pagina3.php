@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+<div id="snow"></div>
     <div class="hand">
    
 <IMG SRC="../img/thanks.gif"width="100%">

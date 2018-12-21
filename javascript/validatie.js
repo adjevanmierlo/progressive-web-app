@@ -2,8 +2,8 @@
 
 function validate (){
 
- var userInput = document.getElementById('userInput').value;
- var imageName = document.getElementById('imageName').value;
+ var userInput = document.getElementById('userInput').value.toLowerCase();
+ var imageName = document.getElementById('imageName').value.toLowerCase();
 
  console.log(userInput);
  console.log(imageName);

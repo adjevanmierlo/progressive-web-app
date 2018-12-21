@@ -16,6 +16,7 @@ include ("db_connection.php");
     <title>Document</title>
 </head>
 <body>
+<div id="snow"></div>
     <?php
 
     $sql= "SELECT * FROM spel ORDER BY rand() limit 1";  //select alles van db spel random limit is niet meer dan 1
@@ -33,7 +34,7 @@ include ("db_connection.php");
     }  
     ?>
     <div class="knop">
-     <input type="text" id="userInput">
+     <input type="text" onfocus="this.value=''" id="userInput">
      <button onclick="validate()">ga!</button>
      </div>
      <a href="pagina3.php"><button class="stop">stop</button></a>
