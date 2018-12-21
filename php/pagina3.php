@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="hand">
    
-</body>
+<IMG SRC="../img/thanks.gif"width="100%">
+</div>
 </html>

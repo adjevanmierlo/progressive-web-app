@@ -2,3 +2,12 @@ body{
     background-image: url(../img/pagina3.png);
     width: 100%;
     height: 100vh;
+}
+
+.hand{
+ position: absolute;
+ top: 25%;
+ left: 25%;
+ max-height: 50%;
+ max-width: 50%;
+}
