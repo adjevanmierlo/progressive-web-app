@@ -1,0 +1,81 @@
+body{
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@font-face {
+  font-family: 'school';
+  src: url('../fonts/school.ttf') format('woff2');
+}
+
+button {
+  background: #108fe8;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 -2px 0 3px #0d72b8 inset, 0 5px 5px rgba(3, 25, 41, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+}
+
+.knopje {
+  margin: 15% 25%;
+  font-family: 'school';
+  width: 50%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  -webkit-animation: colorchange 20s infinite alternate;
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  background: transparent;
+  padding: 10px 10px;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: black;
+  }
+
+  14% {
+    color: red;
+  }
+
+  28% {
+    color: orange;
+  }
+
+  42% {
+    color: #aea04b;
+  }
+
+  56% {
+    color: green;
+  }
+
+  68% {
+    color: blue;
+  }
+
+  70% {
+    color: indigo;
+  }
+
+  82% {
+    color: violet;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.penguin {
+  width: 100%;
+  height: 100vh;
+}
