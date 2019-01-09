@@ -11,9 +11,9 @@ include ("db_connection.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#b7defa"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../css/pagina2.css">
+    <link rel="stylesheet" type="text/css" href="../css/woordspel.css">
     <script src="../javascript/validatie.js"></script>
-    <title>Document</title>
+    <title>woordspel</title>
 </head>
 <body>
 <div id="snow"></div>
@@ -37,6 +37,6 @@ include ("db_connection.php");
      <input type="text" onfocus="this.value=''" id="userInput">
      <button onclick="validate()">ga!</button>
      </div>
-     <a href="pagina3.php"><button class="stop">stop</button></a>
+     <a href="score.php"><button class="stop">stop</button></a>
 </body>
 </html>

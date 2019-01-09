@@ -86,7 +86,7 @@ button {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-image: url(../img/snow.gif);
+  background-image: url(../img/sneeuw.png);
   z-index: 1;
   pointer-events: none;
   -moz-animation: snow 10s linear infinite;

@@ -2,7 +2,7 @@ const cacheName = 'v1';
 
 const cacheAssets = [
 'index.html',
-'php/pagina2.php',
+'php/woorden.php',
 'php/db_connection.php',
 'fonts/school.ttf',
 'css/index.css',

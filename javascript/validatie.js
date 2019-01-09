@@ -11,6 +11,15 @@ function validate (){
 
  if (userInput==imageName) {
      alert (" GOED ");
+     if(sessionStorage.getItem("key") === undefined){
+        sessionStorage.setItem("key", 0);
+    } else{
+        total = sessionStorage.getItem("key");
+        total++;
+        sessionStorage.setItem("key", total);
+    }
+
+    // console.log(sessionStorage.getItem("key"));
      window.location.reload()
  }
  else{
@@ -20,3 +29,4 @@ function validate (){
 
 }
 
+    

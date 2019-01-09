@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'school';
+  src: url('../fonts/school.ttf') format('woff2');
+}
+
 html{
     background-image: linear-gradient(#29a2f2, #fefefe);
     overflow-y: hidden;
@@ -5,25 +10,32 @@ html{
 }
 
 body{
-    background-image: url(../img/pagina3.png);
+    background-image: url(../img/einde.png);
     width: 100%;
     height: 100vh;
     background-repeat:no-repeat;
+    object-fit: cover;
 }
 
-.hand{
+.samba{
  position: absolute;
- top: 25%;
- left: 25%;
- max-height: 50%;
- max-width: 50%;
+ bottom: 20%;
+ left: 30%;
+ max-height: 100%;
+ max-width: 100%;
+ text-align: center;
+}
+
+.samba h1{
+  font-family: 'school';
+  color: #0d72b8;
 }
 
 #snow {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-image: url(../img/snow.gif);
+    background-image: url(../img/sneeuw.png);
     z-index: 1;
     pointer-events: none;
     -moz-animation: snow 10s linear infinite;
@@ -46,3 +58,27 @@ body{
     0% { background-position: 0 0, 0 0, 0 0; }
     100% { background-position: 500px 1000px, 0 400px, 0 300px; }
   }
+
+  .stop{
+    background: #108fe8;
+    position: absolute;
+    left:30%;
+    background: hidden;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 -2px 0 3px #0d72b8 inset, 0 5px 5px rgba(3, 25, 41, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+    cursor: pointer;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    color: white;
+    font-family: 'school';
+  }
+
+
+
+
+
+
+  
